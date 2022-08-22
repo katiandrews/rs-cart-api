@@ -1,9 +1,9 @@
 FROM node:14-alpine
 WORKDIR /app
 
-COPY package*.json /app
+COPY package*.json ./
 RUN npm install && npm cache clean --force
-COPY . . 
+COPY . ./
 RUN npm run build
 
 USER node
