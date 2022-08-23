@@ -1,0 +1,11 @@
+# Directories to ignore
+/.jestcache/
+/dist/
+/node_modules/
+
+# Files to ignore
+/.dockerignore
+/.eslintcache
+/.gitignore
+/Dockerfile
+*.log
